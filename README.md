@@ -56,7 +56,7 @@ pip install tensorflow keras opencv-python numpy scikit-learn matplotlib
 ## Example Output
 ```sh
 Enter the path to the image: test_waste.jpg
-Prediction: Bio-degradable
+Prediction: bio-degradable
 ```
 
 ## Screenshot
