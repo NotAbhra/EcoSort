@@ -29,29 +29,15 @@ cd EcoSort
 
 Install the required dependencies:
 ```sh
-pip install tensorflow keras opencv-python numpy scikit-learn matplotlib
+pip install -r requirements.txt
 ```
 
 ## Usage
-1. **Train the Model**
-   - Ensure your dataset is in the correct directory structure.
-   - Run the script to train the classifier:
-     ```sh
-     python ecosort_train.py
-     ```
-
-2. **Evaluate the Model**
-   - Run the evaluation script to test accuracy:
-     ```sh
-     python ecosort_evaluate.py
-     ```
-
-3. **Classify Waste**
-   - Run the prediction script and provide an image path:
-     ```sh
-     python ecosort_predict.py --image path/to/image.jpg
-     ```
-   - The system will display the image and predict its category.
+Run the script and provide an image path:
+```sh
+python EcoSort.py --image path/to/image.jpg
+```
+The system will display the image and predict its category.
 
 ## Example Output
 ```sh
@@ -64,7 +50,6 @@ Prediction: bio-degradable
 
 ## Notes
 - The dataset consists of a large collection of labeled waste images.
-- ID verification ensures valid images are used in classification.
 - The model can be further fine-tuned for improved accuracy.
 
 ## License
