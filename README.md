@@ -19,7 +19,7 @@ EcoSort is a deep learning-based waste classification system that uses a VGG-sty
 ## Installation
 Clone the repository:
 ```sh
-git clone https://github.com/YOUR_USERNAME/EcoSort.git
+git clone https://github.com/NotAbhra/EcoSort.git
 ```
 
 Navigate to the project directory:
